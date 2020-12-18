@@ -9,5 +9,4 @@ public class ReactShoppingMallApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ReactShoppingMallApplication.class, args);
 	}
-
 }

@@ -22,9 +22,9 @@
 
 	<select id="fetchUserByID"
 		resultType="shop.team1.reactshoppingmall.vo.UserVO"
-		parameterType="String">
+		parameterType="Long">
 		SELECT * FROM users
-		WHERE userID = #{userID}
+		WHERE id = #{id}
 	</select>
 	
 	<update id="updateUser"
